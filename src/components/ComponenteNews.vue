@@ -41,38 +41,50 @@
           </router-link>
         </div>
       </div>
-          <div class="container">
+          <div class="container" style="margin-top:40px;">
             <div class="row">
             <div class="col-6">
-                <img src="" alt="">
+                 <h1>Deforestación: motor de emisión de dióxido de carbono en Colombia</h1>
+                <p>El país emite al año un promedio de 237 millones de toneladas de gas
+                  carbónico a la atmósfera.
+              Las actividades en tierras forestales, incluida la tala de árboles, representan el 33%
+                de la generación. Hoy, en el Día Mundial por la Reducción de las Emisiones de CO2,
+                    les contamos cuáles son los sectores y departamentos que más emiten.</p>
             </div>
             <div class="col-6">
-                <h1>Deforestación: motor de emisión de dióxido de carbono en Colombia</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat</p>
+               <img src="./../assets/noticia2.jpg" alt="" width="400px">
             </div>
             </div>
                <div class="row">
             <div class="col-6">
-                <img src="" alt="">
+                <img src="./../assets/noticia1.jpg" alt="" width="400px">
             </div>
             <div class="col-6">
-                <h1>Deforestación: motor de emisión de dióxido de carbono en Colombia</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat</p>
+                <h1>Cerca de 70 países se comprometieron a reducir su huella de carbono a cero</h1>
+                <p>Un total de 66 países acordaron ante la ONU alcanzar la neutralidad de carbono
+                  para el año 2050. Además, varios donantes decidieron desbloquear
+                  cerca de 500 millones de dólares para reforestar la Amazonia y otras
+                  selvas tropicales del mundo.</p>
             </div>
             </div>
                <div class="row">
             <div class="col-6">
-                <img src="" alt="">
+                <h1>Huella de carbono para una gestión ambiental empresarial</h1>
+                <p>Una información que permite a consumidores, clientes y proveedores
+                   conocer el desempeño de la empresa en el manejo de los riesgos ambientales.</p>
             </div>
             <div class="col-6">
-                <h1>Deforestación: motor de emisión de dióxido de carbono en Colombia</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-                non pulvinar lorem felis nec erat</p>
+                <img src="./../assets/noticia3.jpg" alt="" width="400px">
+            </div>
+            </div>
+             <div class="row">
+            <div class="col-6">
+               <img src="./../assets/noticia4.jpg" alt="" width="400px">
+            </div>
+            <div class="col-6">
+                 <h1>Todo lo que debe saber sobre la primera “Carrera Verde” en Colombia</h1>
+                <p>Se realizará el 22 de febrero, y por cada corredor
+                  inscrito se sembrarán tres árboles.</p>
             </div>
             </div>
           </div>

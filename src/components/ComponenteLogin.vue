@@ -50,10 +50,12 @@
                         </div>
                     </div>
 
-                    <div class="container-login100-form-btn m-t-17">
+                    <div v-if="registro" class="container-login100-form-btn m-t-17">
+                        <router-link to="/home">
                         <button class="login100-form-btn" type="submit">
                             Ingresar
                         </button>
+                        </router-link>
                     </div>
 
                 </form>
@@ -69,7 +71,19 @@ import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class ComponenteLogin extends Vue {
+email='admin@admin.com';
 
+password ='123456';
+
+registro =false;
+
+constructor() {
+  super();
+
+  if (this.email === 'admin@admin.com' && this.password === '123456') {
+    this.registro = true;
+  }
+}
 }
 </script>
 <style>

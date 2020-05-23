@@ -69,9 +69,11 @@
                     </div>
 
                     <div class="container-login100-form-btn m-t-17">
-                        <button class="login100-form-btn" type="submit">
+                          <router-link to="/login">
+                        <button @click="register" class="login100-form-btn" type="submit">
                             Crear cuenta
                         </button>
+                          </router-link>
                     </div>
 
 
@@ -85,10 +87,10 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import VueRouter from 'vue-router';
 
 @Component
 export default class ComponenteRegyster extends Vue {
-
 }
 </script>
 <style>

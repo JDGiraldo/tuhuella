@@ -41,18 +41,20 @@
           </router-link>
         </div>
       </div>
-        <h1>H1 TITULO PRINCIPAL</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui,
-            non pulvinar lorem felis nec erat</p>
+      <div style="padding-top:40px;">
+        <h1>Calidad del Aire</h1>
+        <center>
+       <iframe src="https://www.google.com/maps/embed?pb=Medell%C3%ADn,+Antioquia/@6.2686594,-75.6664441,12z/data=!4m5!3m4!1s0x8e4428ef4e52dddb:0x722fd6c39270ac72!8m2!3d6.2486069!4d-75.5742467" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </center>
+      </div>
     </div>
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import axios from 'axios';
 
 @Component
 export default class ComponenteAire extends Vue {
-
 }
 </script>
 <style>

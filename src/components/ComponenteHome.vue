@@ -4,9 +4,12 @@
         <div class="col-4">
             <div class="huella">
                 <h1> Tu Huella </h1>
+                <div v-if="mostrar">
                  <router-link to="/formularios" id="navbar">
-            <button class="btn btn-warning" style="color: white;">Registra tu huela de Co2</button>
+            <button @click="registro" class="btn btn-warning" style="color: white;">
+                Registra tu huella de Co2</button>
                  </router-link>
+                 </div>
             </div>
         </div>
     </div>
@@ -21,8 +24,9 @@
 
 </template>
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue, Ref } from 'vue-property-decorator';
 import ComponenteFooter from './ComponenteFooter.vue';
+
 
 @Component({
   components: {
@@ -30,7 +34,6 @@ import ComponenteFooter from './ComponenteFooter.vue';
   },
 })
 export default class ComponenteHome extends Vue {
-
 }
 </script>
 <style>
