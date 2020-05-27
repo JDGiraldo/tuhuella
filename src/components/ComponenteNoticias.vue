@@ -34,7 +34,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="container navBar" >
+      <div class="container navbarnot" >
         <div class="col-12 text-left" >
           <router-link to="/news" id="navbar" style="color: black;">Noticias |</router-link>
           <router-link to="/aire" id="navbar" style="color: black;"> Claidad del aire |
@@ -60,7 +60,7 @@ export default class ComponenteNoticias extends Vue {
     margin-top:5px;
     padding: 80px;
 }
-.navBar {
+.navbarnot {
   color: black;
   font-size: 25px;
   text-align: center;

@@ -2,18 +2,18 @@
   <div class="d-flex background">
     <div class="col-6 todo">
         <form action="1" class="formulario1">
-            <h2>1.Tipo de alimentaciÛn:</h2>
+            <h2>1.Tipo de alimentación:</h2>
             <div class="custom-control custom-radio">
                 <input type="radio" id="customRadio1" name="customRadio"
                 class="custom-control-input">
                 <label class="custom-control-label" for="customRadio1">
-                    Dieta media EspaÒa</label>
+                    Dieta media España</label>
             </div>
             <div class="custom-control custom-radio">
                 <input type="radio" id="customRadio2" name="customRadio"
                 class="custom-control-input">
                 <label class="custom-control-label" for="customRadio2">
-                    Dieta mediterr·nea</label>
+                    Dieta mediterranea</label>
             </div>
             <div class="custom-control custom-radio">
                 <input type="radio" id="customRadio3" name="customRadio"
@@ -52,15 +52,15 @@
         </form>
 
         <form action="3" class="formularios">
-            <h2>3.øEl 80% de los alimentos que consumes son ecologicos?</h2>
+            <h2>3.El 80% de los alimentos que consumes son ecologicos?</h2>
             <div class="custom-control custom-switch col d-flex">
                 <label class="col-2">SI</label>
                 <input type="checkbox" class="custom-control-input" id="customSwitch1">
                 <label class="custom-control-label col" for="customSwitch1">NO</label>
             </div>
             <br>
-            <p class="font-italic">NOTA: por definiciÛn los alimentos de km0 son
-                ecolÛgicos, por lo quela opciÛn km0 + no ecolÛgico no se contempla</p>
+            <p class="font-italic">NOTA: por definición los alimentos de km0 son
+                ecológicos, por lo quela opción km0 + no ecológico no se contempla</p>
 
         </form>
 
@@ -72,12 +72,12 @@
             <button type="button" class="btn btn-primary">Hacer otro calculo</button>
             <br>
             <br>
-            <p>Una vez calculadas las emisiones por consumo en alimentaciÛn, aÒadalas
+            <p>Una vez calculadas las emisiones por consumo en alimentación, ó adalas
                 al calculo total de emiciones.
             </p>
             <br>
-            <p>No hay consuo en alimentaciÛn en el c·lculo.</p>
-            <button type="button" class="btn btn-success">AÒadir al total</button>
+            <p>No hay consuo en alimentación en el calculo.</p>
+            <button type="button" class="btn btn-success">Añadir al total</button>
             <br>
             <br>
             <h2>Resultado total:</h2>

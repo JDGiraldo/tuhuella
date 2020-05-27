@@ -8,7 +8,7 @@
           <router-link to="/noticias" id="navbar"> Noticias |</router-link>
         </div>
         <div class="col-6 text-right">
-          <router-link to="/login" id="navbar">| Iniciar Sesion |</router-link>
+          <router-link to="/login" id="navbar">| Iniciar Sesion </router-link>
           <router-link to="/regyster" id="navbar">| Registrarse |</router-link>
         </div>
       </div>

@@ -39,7 +39,7 @@
     </div>
     <div class=" col d-flex info">
     <div class=" col-3">
-        <img src="assets/unnamed.jpg" alt="huella" class=" col align-self-start">
+        <img src="./../assets/huella.jpg" alt="huella" class=" col align-self-start">
     </div>
     <div class="  align-self-end">
         <h2 class="parrafo">Como se emite el CO2</h2>
@@ -57,8 +57,8 @@
 </div>
 <div class=" col d-flex info">
     <div class=" parra2 align-self-start">
-        <h2 class="parrafo2">Tu Huella</h2>
-        <p class="parrafos2 m-4"> Tu Huella nacio como una solucion para mitigar el incremento
+        <h2 class="parrafo">Tu Huella</h2>
+        <p class="parrafos m-4"> Tu Huella nacio como una solucion para mitigar el incremento
             de CO2 en la atmosfera
             ,con su innovadora manera de ayudar  a las personas en sus rutinas diarias y
              darles consejos

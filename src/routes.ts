@@ -10,6 +10,7 @@ import ComponenteMovi from './components/ComponenteMovi.vue';
 import ComponenteAliment from './components/ComponenteAliment.vue';
 import ComponenteNews from './components/ComponenteNews.vue';
 import ComponenteAire from './components/ComponenteAire.vue';
+import ComponenteHome2 from './components/ComponenteHome2.vue';
 
 const routes = [
   { path: '/huella', component: ComponenteHuella },
@@ -23,6 +24,7 @@ const routes = [
   { path: '/aliment', component: ComponenteAliment },
   { path: '/news', component: ComponenteNews },
   { path: '/aire', component: ComponenteAire },
+  { path: '/home2', component: ComponenteHome2 },
 ];
 
 export default routes;

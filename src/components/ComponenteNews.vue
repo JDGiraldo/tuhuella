@@ -37,7 +37,7 @@
       <div class="container navBar" >
         <div class="col-12 text-left" >
           <router-link to="/news" id="navbar" style="color: black;">Noticias |</router-link>
-          <router-link to="/aire" id="navbar" style="color: black;"> Claidad del aire |
+          <router-link to="/aire" id="navbar" style="color: black;"> Calidad del aire |
           </router-link>
         </div>
       </div>

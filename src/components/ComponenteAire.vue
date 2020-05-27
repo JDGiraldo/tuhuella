@@ -37,14 +37,14 @@
       <div class="container navBar" >
         <div class="col-12 text-left" >
           <router-link to="/news" id="navbar" style="color: black;">Noticias |</router-link>
-          <router-link to="/aire" id="navbar" style="color: black;"> Claidad del aire |
+          <router-link to="/aire" id="navbar" style="color: black;"> Calidad del aire |
           </router-link>
         </div>
       </div>
       <div style="padding-top:40px;">
         <h1>Calidad del Aire</h1>
         <center>
-       <iframe src="https://www.google.com/maps/embed?pb=Medell%C3%ADn,+Antioquia/@6.2686594,-75.6664441,12z/data=!4m5!3m4!1s0x8e4428ef4e52dddb:0x722fd6c39270ac72!8m2!3d6.2486069!4d-75.5742467" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=@6.229006,-75.583473,22922m/data=!3m1!1e3?hl=es-CO" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </center>
       </div>
     </div>

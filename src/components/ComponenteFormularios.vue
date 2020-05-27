@@ -8,7 +8,7 @@
                 <div class="col-4">
                 <router-link to="/energia" id="navbar">
                     <img class="imagenes" src="./../assets/energia.png" alt="" >
-                    <div>Energia</div>
+                    <div></div>
                 </router-link>
                 </div>
                 <div class="col-4">
@@ -20,6 +20,17 @@
                      <router-link to="/aliment" id="navbar">
                       <img class="imagenes" src="./../assets/comida.png" alt="" >
                     </router-link>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>Energia</h2>
+                </div>
+                <div class="col-4">
+                    <h2>Movilización</h2>
+                </div>
+                <div class="col-4">
+                    <h2>Alimentación</h2>
                 </div>
             </div>
         </div>

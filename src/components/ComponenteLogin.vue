@@ -51,7 +51,7 @@
                     </div>
 
                     <div v-if="registro" class="container-login100-form-btn m-t-17">
-                        <router-link to="/home">
+                        <router-link to="/home2">
                         <button class="login100-form-btn" type="submit">
                             Ingresar
                         </button>
